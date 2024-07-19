@@ -1,0 +1,86 @@
+* {
+  scroll-snap-type: y mandatory;
+}
+.snapElement {
+  scroll-snap-align: start;
+}
+.heroContainer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  /* Change Background Image of Hero page for any spcific event */
+  /* background: url("../assets/<imageHere>.png") center/cover no-repeat; */
+  background-position: left;
+}
+
+.videoBg {
+  user-select: none;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.content {
+  display: block;
+  text-align: justify;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  position: absolute;
+  margin: 0.5rem;
+}
+
+.heroContainer:last-child {
+  align-items: center;
+}
+video {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.mainHeading {
+  font-size: 4rem;
+}
+
+.mainHeading ~ p {
+  font-size: 2rem;
+}
+/* Give glowing effect to Main Heading */
+/* .mainHeading,
+.mainHeading ~ p {
+  text-shadow: 0 0 10px #ffffff9e, 0 0 20px #36175d, 0 0 30px #fff,
+    0 0 40px #60509d, 0 0 70px #28125f, 0 0 80px #ff0000, 0 0 100px #821c65,
+    0 0 150px #b5677f;
+} */
+.mainHeading {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.reveal-text {
+  color: #fff;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: revealAnimation 3s forwards;
+}
+/* For Desktops */
+@media only screen and (min-width: 768px) {
+  .mainHeading {
+    font-size: 150px;
+  }
+
+  .mainHeading ~ p {
+    font-size: 40px;
+  }
+}
+
+/* FOR Tablets */
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+}
