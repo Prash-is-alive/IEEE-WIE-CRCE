@@ -1,9 +1,9 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
-import icon from "../assets/logos/ieee-white-logo.png";
+import defaultIcon from "../assets/logos/ieee-white-logo.png";
 import "../css/Card.css";
 
-function Card({ title = "IEEE", description = "", icon = icon, position }) {
+function Card({ title = "IEEE", description = "", icon = defaultIcon, position }) {
   return (
     <>
       <Tilt tiltReverse={true} scale={1.2}>
