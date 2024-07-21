@@ -25,37 +25,44 @@ const Contact = () => {
     emailPublicKey: process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY,
   };
 
-  const handleSubmit = useCallback((e) => {
-    let sendBtn = e.target[3];
-    e.preventDefault();
-    sendBtn.innerText = "Sending..";
-    emailjs
-      .sendForm(
-        emailJSKeys.emailServiceId,
-        emailJSKeys.emailTemplateId,
-        form.current,
-        emailJSKeys.emailPublicKey
-      )
-      .then(
-        (result) => {
-          sendBtn.classList.add("btn-success");
-          sendBtn.innerHTML = "Sent!";
-          sendBtn.disabled = true;
+  const handleSubmit = useCallback(
+    (e) => {
+      let sendBtn = e.target[3];
+      e.preventDefault();
+      sendBtn.innerText = "Sending..";
+      emailjs
+        .sendForm(
+          emailJSKeys.emailServiceId,
+          emailJSKeys.emailTemplateId,
+          form.current,
+          emailJSKeys.emailPublicKey
+        )
+        .then(
+          (result) => {
+            sendBtn.classList.add("btn-success");
+            sendBtn.innerHTML = "Sent!";
+            sendBtn.disabled = true;
 
-          // Reset form values after successful submission
-          setFormValue({
-            from_name: "",
-            from_email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          console.log(error);
-          sendBtn.classList.add("btn-danger");
-          sendBtn.innerText = "ERROR!";
-        }
-      );
-  }, []);
+            // Reset form values after successful submission
+            setFormValue({
+              from_name: "",
+              from_email: "",
+              message: "",
+            });
+          },
+          (error) => {
+            console.log(error);
+            sendBtn.classList.add("btn-danger");
+            sendBtn.innerText = "ERROR!";
+          }
+        );
+    },
+    [
+      emailJSKeys.emailServiceId,
+      emailJSKeys.emailTemplateId,
+      emailJSKeys.emailPublicKey,
+    ]
+  );
 
   return (
     <>

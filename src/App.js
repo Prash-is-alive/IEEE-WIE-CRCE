@@ -3,13 +3,13 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { TailSpin } from "react-loader-spinner";
 import "./App.css";
-import prakalp2 from "./assets/events/prakalp2k24.jpg";
+// import prakalp2 from "./assets/events/prakalp2k24.jpg";
 const Hero = React.lazy(() => import("./components/Hero"));
 const About = React.lazy(() => import("./components/About"));
 const Contact = React.lazy(() => import("./components/Contact"));
 const Events = React.lazy(() => import("./components/Events"));
 const Team = React.lazy(() => import("./components/Team"));
-const HoverCard = React.lazy(() => import("./components/HoverCard"));
+// const HoverCard = React.lazy(() => import("./components/HoverCard"));
 const Error = React.lazy(() => import("./components/Error"));
 // const Modal = React.lazy(() => import("./components/Modal"));
 function App() {
@@ -17,7 +17,7 @@ function App() {
     `%c${process.env.REACT_APP_SECRET_MESSAGE}`,
     "color: #00a67d; font-weight:bold"
   );
-  const showCard = localStorage.getItem("cardDismissed");
+  // const showCard = localStorage.getItem("cardDismissed");
   return (
     <>
       <Router>

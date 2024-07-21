@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import Tilt from "react-parallax-tilt";
 import eventPlaceholder from "../assets/placeholders/prakalp_placeholder.png";
 import { EVENTS, EVENTTABS as tabs } from "./ImportData";
-import bannerImg from "../assets/events/prakalpBanner.jpg";
+// import bannerImg from "../assets/events/prakalpBanner.jpg";
 import LordIcon from "./LordIcon";
 import "../css/Events.css";
 
