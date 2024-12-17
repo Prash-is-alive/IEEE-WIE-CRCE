@@ -1,36 +1,32 @@
 // IEEE member imports
-import rachana from "../assets/TeamMembers/IEEE/rachana.png";
-import santo from "../assets/TeamMembers/IEEE/santo.png";
-import bhavika from "../assets/TeamMembers/IEEE/bhavika.png";
-import aditya from "../assets/TeamMembers/IEEE/aditya.png";
-import shivprasad from "../assets/TeamMembers/IEEE/shivprasad.png";
-import aryan from "../assets/TeamMembers/IEEE/aryan.png";
-import prashant from "../assets/TeamMembers/IEEE/prashant.png";
-import mohtashim from "../assets/TeamMembers/IEEE/mohtashim.png";
-import vedant from "../assets/TeamMembers/IEEE/vedant.png";
-import jerry from "../assets/TeamMembers/IEEE/jerry.png";
-import janhavi from "../assets/TeamMembers/IEEE/janhavi.png";
-import adarsh from "../assets/TeamMembers/IEEE/adarsh.png";
-import samrudhi from "../assets/TeamMembers/IEEE/samrudhi.png";
-import wasee from "../assets/TeamMembers/IEEE/wasee.png";
-import mrunali from "../assets/TeamMembers/IEEE/mrunali.png";
-import keenan from "../assets/TeamMembers/IEEE/keenan.png";
-import shine from "../assets/TeamMembers/IEEE/shine.png";
+import aditya2 from "../assets/TeamMembers/IEEE/aditya2.png";
+import vedant2 from "../assets/TeamMembers/IEEE/vedant2.png";
+import criselle from "../assets/TeamMembers/IEEE/criselle.png";
+import mrunali2 from "../assets/TeamMembers/IEEE/mrunali2.png";
+import adarsh2 from "../assets/TeamMembers/IEEE/adarsh2.png";
+import samrudhi2 from "../assets/TeamMembers/IEEE/samrudhi2.png";
+import harsh from "../assets/TeamMembers/IEEE/harsh.png";
+import navin from "../assets/TeamMembers/IEEE/navin.png";
+import anshuman from "../assets/TeamMembers/IEEE/anshuman.png";
+import darshil from "../assets/TeamMembers/IEEE/darshil.png";
+import binil from "../assets/TeamMembers/IEEE/binil.png";
+import aarya from "../assets/TeamMembers/IEEE/aarya.png";
+import roshan from "../assets/TeamMembers/IEEE/roshan.png";
+import neil from "../assets/TeamMembers/IEEE/neil.png";
+import mohini from "../assets/TeamMembers/IEEE/mohini.png";
 //WIE member imports
-import grace from "../assets/TeamMembers/WIE/grace.png";
-import sanika from "../assets/TeamMembers/WIE/sanika.png";
-import pearl from "../assets/TeamMembers/WIE/pearl.png";
-import sania from "../assets/TeamMembers/WIE/sania.png";
-import sharli from "../assets/TeamMembers/WIE/sharli.png";
-import amanda from "../assets/TeamMembers/WIE/amanda.png";
-import anwaya from "../assets/TeamMembers/WIE/anwaya.png";
-import kashmira from "../assets/TeamMembers/WIE/kashmira.png";
-import nivedita from "../assets/TeamMembers/WIE/nivedita.png";
-import gayatri from "../assets/TeamMembers/WIE/gayatri.png";
-import mohika from "../assets/TeamMembers/WIE/mohika.png";
-import raina from "../assets/TeamMembers/WIE/raina.png";
-import janice from "../assets/TeamMembers/WIE/janice.png";
-import mokshada from "../assets/TeamMembers/WIE/mokshada.png";
+import sanika2 from "../assets/TeamMembers/WIE/sanika2.png";
+import raina2 from "../assets/TeamMembers/WIE/raina2.png";
+import sania2 from "../assets/TeamMembers/WIE/sania2.png";
+import gayatri2 from "../assets/TeamMembers/WIE/gayatri2.png";
+import mokshada2 from "../assets/TeamMembers/WIE/mokshada2.png";
+import mohika2 from "../assets/TeamMembers/WIE/mohika2.png";
+import ashal from "../assets/TeamMembers/WIE/ashal.png";
+import steffi from "../assets/TeamMembers/WIE/steffi.png";
+import hanan from "../assets/TeamMembers/WIE/hanan.png";
+import lini from "../assets/TeamMembers/WIE/lini.png";
+import aahana from "../assets/TeamMembers/WIE/aahana.png";
+import freia from "../assets/TeamMembers/WIE/freia.png";
 //Event imports
 import ai from "../assets/events/AI.png";
 import EscapeRoom from "../assets/events/EscapeRoom.png";
@@ -61,7 +57,7 @@ import prakalp2 from "../assets/events/prakalp2k24.jpg";
 //Mentors
 import sapna from "../assets/TeamMembers/Mentors/sapna.jpg";
 import sushma from "../assets/TeamMembers/Mentors/sushma.jpg";
-import swapnali from "../assets/TeamMembers/Mentors/swapnali.jpg";
+import vaibhav from "../assets/TeamMembers/Mentors/vaibhav.jpg";
 //Logos
 import ieeeIcon from "../assets/logos/ieeeIcon.svg";
 import wieIcon from "../assets/logos/wieIcon.svg";
@@ -80,281 +76,245 @@ import ieeeWieCombinedIcon from "../assets/logos/ieee-wie-logo.png";
 
 const MEMBERS = [
   {
-    name: "Rachana Chavan",
-    imgsrc: rachana,
-    position: "IEEE CHAIRPERSON",
-    team: "IEEE",
-    linkedin: "rachanarchavan",
-    instagramId: "rachana_432",
-    icon: "game-icons:rank-3",
-  },
-  {
-    name: "Santo Sunny",
-    imgsrc: santo,
-    position: "SECRETARY",
-    team: "IEEE",
-    linkedin: "santo-sunny-6553971ba",
-    instagramId: "cr_stark_08",
-    icon: "game-icons:rank-2",
-  },
-  {
-    name: "BHAVIKA SALVI",
-    imgsrc: bhavika,
-    position: "TRESURER",
-    team: "IEEE",
-    linkedin: "bhavika-salvi",
-    icon: "game-icons:rank-1",
-  },
-  {
     name: "Aditya Dhikale",
-    imgsrc: aditya,
-    position: "VICE CHAIRPERSON",
+    imgsrc: aditya2,
+    position: "IEEE CHAIRPERSON",
     team: "IEEE",
     linkedin: "aditya-dhikale-674643288",
     instagramId: "adityadhikale2003",
-    icon: "mdi:account-tie-outline",
-  },
-  {
-    name: "Shivprasad Chavarattil",
-    imgsrc: shivprasad,
-    position: "VICE CHAIRPERSON",
-    team: "IEEE",
-    linkedin: "shivprasad-premarajan-b4659b1ab",
-    instagramId: "shivprasadcp",
-    icon: "mdi:account-tie-outline",
-  },
-  {
-    name: "Aryan Mohite",
-    imgsrc: aryan,
-    position: "CO. ORGANISER",
-    team: "IEEE",
-    linkedin: "aryanmohite",
-    instagramId: "aryanmohitee",
-    icon: "octicon:workflow-16",
-  },
-  {
-    name: "Prashant Singh",
-    imgsrc: prashant,
-    position: "SR. TECHNICAL HEAD",
-    team: "IEEE",
-    linkedin: "prashant-singh-734bb3262",
-    instagramId: "prashh_314",
-    icon: "game-icons:techno-heart",
-  },
-  {
-    name: "Mohtashim Ali",
-    imgsrc: mohtashim,
-    position: "SR. PR HEAD",
-    team: "IEEE",
-    linkedin: "mohtashim-ali-syed-2ab202252",
-    instagramId: "mohtashim__ali",
-    icon: "icon-park-outline:connect",
-  },
-  {
-    name: "Vedant Chawardol",
-    imgsrc: vedant,
-    position: "Sr. Marketing Head",
-    team: "IEEE",
-    linkedin: "vedant-chawardol",
-    instagramId: "iam.vedant",
-    icon: "nimbus:marketing",
-  },
-  {
-    name: "Jerry Jacob",
-    imgsrc: jerry,
-    position: "SR. Documentation HEAD",
-    team: "IEEE",
-    linkedin: "jerry-jacob-34a44a229",
-    instagramId: "jerryjaob09",
-    icon: "carbon:document-view",
-  },
-  {
-    name: "Janhavi Singh",
-    imgsrc: janhavi,
-    position: "SE REPRESENTATIVE",
-    team: "IEEE",
-    linkedin: "janhavi-singh-6a1897282",
-    instagramId: "janhaavvi",
-    icon: "bi:person-badge",
-  },
-  {
-    name: "Adarsh Gupta",
-    imgsrc: adarsh,
-    position: "JR. TECHNICAL HEAD",
-    team: "IEEE",
-    linkedin: "adarsh-gupta-650a09264",
-    instagramId: "adarsh_gupta173",
-    icon: "bi:code-slash",
-  },
-  {
-    name: "Samrudhi Shetty",
-    imgsrc: samrudhi,
-    position: "JR DESIGN HEAD",
-    team: "IEEE",
-    linkedin: "samrudhi-shetty-5a227b264",
-    instagramId: "_samrudhishetty_",
-    icon: "streamline:interface-align-layers-2-design-layer-layers-pile-stack",
-  },
-  {
-    name: "Wasee Momin",
-    imgsrc: wasee,
-    position: "JR. design head",
-    team: "IEEE",
-    linkedin: "wasee-momin-51b903282",
-    instagramId: "_w4see_",
-    icon: "iconoir:design-pencil",
-  },
-  {
-    name: "Mrunali Tamhankar",
-    imgsrc: mrunali,
-    position: "JR. PR head",
-    team: "IEEE",
-    linkedin: "mrunali-tamhankar-25050026b",
-    instagramId: "mrunoly",
-    icon: "carbon:chart-relationship",
-  },
-  {
-    name: "Keenan Mendas",
-    imgsrc: keenan,
-    position: "JR. Marketing head",
-    team: "IEEE",
-    linkedin: "keenan-mendes-21b637282",
-    instagramId: "keen_n02",
-    icon: "fluent-mdl2:market",
-  },
-  {
-    name: "Shine Mascarenhas",
-    imgsrc: shine,
-    position: "JR. Documentation head",
-    team: "IEEE",
-    linkedin: "shine-mascarenhas-046244269",
-    instagramId: "shine_mascarenhas_",
-    icon: "solar:document-broken",
-  },
-  {
-    name: "Grace Pereira",
-    imgsrc: grace,
-    position: "The Chairperson",
-    team: "WIE",
-    linkedin: "grace-pereira-735993230",
-    instagramId: "_gracepereira",
     icon: "game-icons:rank-3",
   },
   {
-    name: "Sanika Rozario",
-    imgsrc: sanika,
-    position: "Vice Chairperson",
-    team: "WIE",
-    linkedin: "sanika-rozario-97894522b",
-    instagramId: "rozariosanika",
+    name: "Vedant Chawardol",
+    imgsrc: vedant2,
+    position: "SECRETARY",
+    team: "IEEE",
+    linkedin: "vedant",
+    instagramId: "vedant",
     icon: "game-icons:rank-2",
   },
   {
-    name: "Pearl D'Souza",
-    imgsrc: pearl,
-    position: "TRESURER",
-    team: "WIE",
-    linkedin: "pearl-dsouza-82b8b6231",
-    instagramId: "_ft.pearl_",
+    name: "Mrunali Tamhankar",
+    imgsrc: mrunali2,
+    position: "VICE CHAIRPERSON",
+    team: "IEEE",
+    linkedin: "mrunali-tamhankar-25050026b",
+    instagramId: "mrunoly",
+    icon: "mdi:account-tie-outline",
+  },
+  {
+    name: "Adarsh Gupta",
+    imgsrc: adarsh2,
+    position: "VICE CHAIRPERSON",
+    team: "IEEE",
+    linkedin: "adarsh-gupta-650a09264",
+    instagramId: "aadarshhh_173",
+    icon: "mdi:account-tie-outline",
+  },
+  {
+    name: "Samrudhi Shetty",
+    imgsrc: samrudhi2,
+    position: "Event Coordinator",
+    team: "IEEE",
+    linkedin: "samrudhi-shetty-5a227b264",
+    instagramId: "_samrudhishetty_",
+    icon: "octicon:workflow-16",
+  },
+  {
+    name: "Harsh Salunkhe",
+    imgsrc: harsh,
+    position: "SR. TECHNICAL HEAD",
+    team: "IEEE",
+    linkedin: "harsh-salunkhe-140335257",
+    instagramId: "_harsh_salunkhe",
+    icon: "game-icons:techno-heart",
+  },
+  {
+    name: "Criselle Rodrigues",
+    imgsrc: criselle,
+    position: "Sr. Design Head",
+    team: "IEEE",
+    linkedin: "criselle",
     icon: "game-icons:rank-1",
   },
   {
-    name: "Sania Almedia",
-    imgsrc: sania,
-    position: "Event Coordinator",
-    team: "WIE",
-    linkedin: "sania-almeida-17b5b2249",
-    instagramId: "almeida.sania.18",
-    icon: "carbon:event",
+    name: "Navin Reddy",
+    imgsrc: navin,
+    position: "SR. PR HEAD",
+    team: "IEEE",
+    linkedin: "navin",
+    instagramId: "navin_2774",
+    icon: "icon-park-outline:connect",
   },
   {
-    name: "Sharli Khot",
-    imgsrc: sharli,
-    position: "Documentation head",
-    team: "WIE",
-    linkedin: "sharlikhot",
-    instagramId: "sharli.khot",
-    icon: "solar:document-add-broken",
+    name: "Anshuman Sahu",
+    imgsrc: anshuman,
+    position: "Sr. Marketing Head",
+    team: "IEEE",
+    linkedin: "anshuman-sahu-3a92282",
+    instagramId: "anshuman.sahu1",
+    icon: "nimbus:marketing",
   },
   {
-    name: "Amanda Saldanha",
-    imgsrc: amanda,
-    position: "Design Head",
-    team: "WIE",
-    linkedin: "sania-almeida-17b5b2249",
-    instagramId: "almeida.sania.18",
-    icon: "ic:outline-design-services",
+    name: "Darshil Sonawane",
+    imgsrc: darshil,
+    position: "SR. Documentation HEAD",
+    team: "IEEE",
+    linkedin: "Darshil Sonawane ",
+    instagramId: "darshil_6113",
+    icon: "carbon:document-view",
   },
   {
-    name: "Anwaya Belwalkar",
-    imgsrc: anwaya,
-    position: "Technical Head",
-    team: "WIE",
-    linkedin: "anwaya-belwalkar-46a472230",
-    instagramId: "anwayaaa",
-    icon: "grommet-icons:technology",
-  },
-  {
-    name: "Kashmira Sukhtankar",
-    imgsrc: kashmira,
-    position: "PR Head",
-    team: "WIE",
-    linkedin: "kashmira-sukhtankar-00558b24b",
-    instagramId: "kash_2501",
-    icon: "game-icons:relationship-bounds",
-  },
-  {
-    name: "Nivedita Kokane",
-    imgsrc: nivedita,
-    position: "Marketing Head",
-    team: "WIE",
-    linkedin: "nivedita-kokane-471130249",
-    instagramId: "kokanenivedita",
-    icon: "icon-park-outline:stock-market",
-  },
-  {
-    name: "Gayatri Nadar",
-    imgsrc: gayatri,
+    name: "Binil John ",
+    imgsrc: binil,
     position: "JR. TECHNICAL HEAD",
-    team: "WIE",
-    linkedin: "gayatri-nadar-570b76264",
-    instagramId: "grn__idk",
-    icon: "icon-park-outline:code-computer",
+    team: "IEEE",
+    linkedin: "Binil John ",
+    instagramId: "binil_21",
+    icon: "bi:code-slash",
   },
   {
-    name: "Mohika Rane",
-    imgsrc: mohika,
+    name: "Aarya Nawar",
+    imgsrc: aarya,
     position: "JR DESIGN HEAD",
-    team: "WIE",
-    linkedin: "mohika-rane-1b0503259",
-    instagramId: "ranemohika",
-    icon: "clarity:design-line",
+    team: "IEEE",
+    linkedin: "aarya",
+    instagramId: "aaryyaa7",
+    icon: "streamline:interface-align-layers-2-design-layer-layers-pile-stack",
   },
   {
-    name: "Raina Joyce Raj",
-    imgsrc: raina,
+    name: "Roshan Christopher ",
+    imgsrc: roshan,
+    position: "JR. PR head",
+    team: "IEEE",
+    linkedin: "roshan",
+    instagramId: "_roshhh._._",
+    icon: "carbon:chart-relationship",
+  },
+  {
+    name: "Neil Faber",
+    imgsrc: neil,
+    position: "JR. Marketing head",
+    team: "IEEE",
+    linkedin: "neil",
+    instagramId: "neil",
+    icon: "fluent-mdl2:market",
+  },
+  {
+    name: "Mohini Balmiki",
+    imgsrc: mohini,
     position: "JR. Documentation head",
+    team: "IEEE",
+    linkedin: "mohini",
+    instagramId: "mohini._10",
+    icon: "solar:document-broken",
+  },
+  {
+    name: "Sanika Rozario",
+    imgsrc: sanika2,
+    position: "The Chairperson",
+    team: "WIE",
+    linkedin: "Sanika Rozario ",
+    instagramId: "rozariosanika",
+    icon: "game-icons:rank-3",
+  },
+  {
+    name: "Raina Joyce Raj ",
+    imgsrc: raina2,
+    position: "Vice Chairperson",
     team: "WIE",
     linkedin: "raina-joyce-b92a1a249",
     instagramId: "raina_joyce7",
-    icon: "pajamas:doc-code",
+    icon: "game-icons:rank-2",
   },
   {
-    name: "Janice Almeida",
-    imgsrc: janice,
-    position: "JR. PR head",
+    name: "Sania Almeida ",
+    imgsrc: sania2,
+    position: "Advisor",
     team: "WIE",
-    linkedin: "janice-almeida-8392b8282",
-    instagramId: "janice_almeida14_",
-    icon: "tabler:circles-relation",
+    linkedin: "sania-almeida-17b5b2249",
+    instagramId: "almeida.sania.18",
+    icon: "game-icons:rank-1",
   },
   {
-    name: "Mokshada Rane",
-    imgsrc: mokshada,
-    position: "SE REPRESENTATIVE",
+    name: "Gayatri Nadar ",
+    imgsrc: gayatri2,
+    position: "Event Coordinator & Treasurer",
+    team: "WIE",
+    linkedin: "gayatri-nadar-570b76264",
+    instagramId: "grn_idk",
+    icon: "carbon:event",
+  },
+  {
+    name: "Mokshada Rane ",
+    imgsrc: mokshada2,
+    position: "Sr. Documentation head",
     team: "WIE",
     linkedin: "mokshada-rane-b26394259",
     instagramId: "mokshadarane",
+    icon: "solar:document-add-broken",
+  },
+  {
+    name: "Mohika Rane",
+    imgsrc: mohika2,
+    position: "Design Head",
+    team: "WIE",
+    linkedin: "mohika-rane-1b0503259",
+    instagramId: "ranemohika",
+    icon: "ic:outline-design-services",
+  },
+  {
+    name: "Ashal Dabre ",
+    imgsrc: ashal,
+    position: "Technical Head",
+    team: "WIE",
+    linkedin: "ashal-dabre-415597239",
+    instagramId: "ash.dabre",
+    icon: "grommet-icons:technology",
+  },
+  {
+    name: "Steffi Peter",
+    imgsrc: steffi,
+    position: "PR Head",
+    team: "WIE",
+    linkedin: "Steffi Peter",
+    instagramId: "_steffi._.peter_",
+    icon: "game-icons:relationship-bounds",
+  },
+  {
+    name: "Hanan Fernandes ",
+    imgsrc: hanan,
+    position: "JR DESIGN HEAD",
+    team: "WIE",
+    linkedin: "Hanan Fernandes ",
+    instagramId: "_hanan_william",
+    icon: "clarity:design-line",
+  },
+  {
+    name: "Lini Dsouza ",
+    imgsrc: lini,
+    position: "JR. Documentation head",
+    team: "WIE",
+    linkedin: "Lini Dsouza ",
+    instagramId: "lini_dsouza",
+    icon: "pajamas:doc-code",
+  },
+  {
+    name: "Aahana Alexus Peter",
+    imgsrc: aahana,
+    position: "JR. PR head",
+    team: "WIE",
+    linkedin: "aahana-peter",
+    instagramId: "aahana_peter",
+    icon: "tabler:circles-relation",
+  },
+  {
+    name: "Freia Carmelica Quadros",
+    imgsrc: freia,
+    position: "Jr. Event Coordinator",
+    team: "WIE",
+    linkedin: "freia-quadros-358022324",
+    instagramId: "freiac_16",
     icon: "fluent:person-ribbon-20-regular",
   },
 ];
@@ -562,9 +522,9 @@ const MENTORS = [
     imgsrc: sapna,
   },
   {
-    name: "Mrs. Swapnali Makdey",
+    name: "Mr. Vaibhav Godbole",
     description: "IEEE-CRCE Branch Counsellor",
-    imgsrc: swapnali,
+    imgsrc: vaibhav,
   },
 ];
 
