@@ -20,7 +20,7 @@ WIE is a global network of IEEE members and volunteers dedicated to promoting wo
 
 ## Getting Started 🏁🌐
 
-To access and explore our website, simply visit https://ieeewiecrce.netlify.app in your web browser. You can navigate through different sections to learn more about IEEE, WIE, and the exciting activities we have to offer.
+To access and explore our website, simply visit https://ieeewiecrce.netlify.com in your web browser. You can navigate through different sections to learn more about IEEE, WIE, and the exciting activities we have to offer.
 
 ## Contributing 🤝🌟
 
@@ -28,7 +28,7 @@ We welcome contributions from the community! If you have ideas, suggestions, or 
 
 ---
 
-Visit our website: [https://ieeewiecrce.netlify.app](https://ieeewiecrce.netlify.app)
+Visit our website: [https://ieeewiecrce.netlify.com](https://ieeewiecrce.netlify.com)
 Follow us on [Instagram](https://www.instagram.com/ieee_crce) | [Facebook](https://www.facebook.com/IeeeCrce) | [Twitter](https://twitter.com/IEEE_CRCE)
 
 For inquiries, contact us at: [ieeecrce.24@gmail.com](mailto:ieeecrce.24@gmail.com)
