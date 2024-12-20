@@ -149,21 +149,21 @@ function ContactDetails() {
         call. Here are the awesome people you can connect with!
       </p>
       <p>
-        <Icon icon="line-md:phone-call-twotone-loop" /> Aditya:{" "}
+        <Icon icon="line-md:phone-call-twotone-loop" /> Mrunali Tamhankar:{" "}
         <a
-          href="tel:7620335644"
+          href="tel:9321640052"
           className="text-decoration-underline text-dark"
         >
-          +917620335644
+          +919321640052
         </a>
       </p>
       <p>
-        <Icon icon="line-md:phone-call-twotone-loop" /> Shivaprasad:{" "}
+        <Icon icon="line-md:phone-call-twotone-loop" /> Adarsh Gupta:{" "}
         <a
-          href="tel:7558220919"
+          href="tel:8369291692"
           className="text-decoration-underline text-dark"
         >
-          +917558220919
+          +918369291692
         </a>
       </p>
       <p>
