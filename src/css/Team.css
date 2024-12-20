@@ -104,7 +104,7 @@
 /* For Desktops */
 @media only screen and (min-width: 768px) {
   .tiltDiv {
-    width: 30%;
+    width: 22%;
   }
   .mainTitle {
     font-size: 3em;
