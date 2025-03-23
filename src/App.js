@@ -3,13 +3,13 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { TailSpin } from "react-loader-spinner";
 import "./App.css";
-// import prakalp2 from "./assets/events/prakalp2k24.jpg";
+import prakalp3 from "./assets/events/prakalp2k25.jpg";
 const Hero = React.lazy(() => import("./components/Hero"));
 const About = React.lazy(() => import("./components/About"));
 const Contact = React.lazy(() => import("./components/Contact"));
 const Events = React.lazy(() => import("./components/Events"));
 const Team = React.lazy(() => import("./components/Team"));
-// const HoverCard = React.lazy(() => import("./components/HoverCard"));
+const HoverCard = React.lazy(() => import("./components/HoverCard"));
 const Error = React.lazy(() => import("./components/Error"));
 // const Modal = React.lazy(() => import("./components/Modal"));
 function App() {
@@ -46,13 +46,16 @@ function App() {
             <Route path="*" element={<Error />} />
           </Routes>
         </Suspense>
-        {/* Uncomment this for card overlay */}
         {/* {!showCard && (
           <HoverCard
-            eventImg={prakalp2}
+            eventImg={prakalp3}
             registrationLink={"https://shorturl.at/kHV09"}
           />
         )} */}
+          <HoverCard
+            eventImg={prakalp3}
+            registrationLink={"https://unstop.com/o/RpUVKCI?lb=JfoBW0t"}
+          />
       </Router>
     </>
   );

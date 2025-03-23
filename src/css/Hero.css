@@ -15,7 +15,7 @@
   align-items: center;
   transition: all 1s;
   /* Change Background Image of Hero page for any spcific event */
-  /* background: url("../assets/<imageHere>.png") center/cover no-repeat; */
+  background: url("../assets/Prakalp2k25BG.png") center/cover no-repeat;
   background-position: left;
 }
 
@@ -55,15 +55,15 @@ video {
   font-size: 2rem;
 }
 /* Give glowing effect to Main Heading */
-/* .mainHeading,
+.mainHeading,
 .mainHeading ~ p {
   text-shadow: 0 0 10px #ffffff9e, 0 0 20px #36175d, 0 0 30px #fff,
     0 0 40px #60509d, 0 0 70px #28125f, 0 0 80px #ff0000, 0 0 100px #821c65,
     0 0 150px #b5677f;
-} */
-.mainHeading {
+} 
+/* .mainHeading {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
+} */
 .reveal-text {
   color: #fff;
   opacity: 0;

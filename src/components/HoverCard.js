@@ -24,14 +24,12 @@ const HoverCard = (props) => {
         className="img-fluid rounded-3 img-thumbnail"
       />
 
-      {props.registrationLink ? (
-        <a href={props.registrationLink}>
-          <button className="btn btn-primary position-absolute registerBtn rounded-end-pill">
-            Register{" "}
+      {props?.registrationLink && (
+          <button className="btn btn-primary position-absolute registerBtn rounded-end-pill" onClick={()=>window.open(props.registrationLink, '_blank', 'noopener,noreferrer')}>
+             Register{" "}
             <Icon icon="line-md:arrow-right" style={{ color: "white" }} />
           </button>
-        </a>
-      ) : null}
+      ) }
     </div>
   );
 };

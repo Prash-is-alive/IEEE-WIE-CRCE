@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 import wieLogoPlaceholder from "../assets/placeholders/placeholder.png";
-import ieeeLogo from "../assets/ieeeTeam.jpg";
+import ieeeLogo from "../assets/ieeeNewTeam.jpg";
 import "../css/About.css";
 function IeeeAbout() {
   // Icons for WIE Vision and WIE Mission

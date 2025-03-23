@@ -54,6 +54,10 @@ import techVista from "../assets/events/techVista.png";
 import peerPong from "../assets/events/peerpong.png";
 import dareToRace from "../assets/events/dareToRace.png";
 import prakalp2 from "../assets/events/prakalp2k24.jpg";
+import Bug_Free from "../assets/events/Bug_Free.jpg";
+import IICxIEEE from "../assets/events/IICxIEEE.jpg"
+import ingenium3 from "../assets/events/ingenium3.jpeg"
+import prakalp2k25 from "../assets/events/prakalp2k25.jpg"
 //Mentors
 import sapna from "../assets/TeamMembers/Mentors/sapna.jpg";
 import sushma from "../assets/TeamMembers/Mentors/sushma.jpg";
@@ -323,6 +327,35 @@ const MEMBERS = [
 // console.log(MemberImages);
 
 const EVENTS = [
+
+  {
+    title: "Prakalp 2k25",
+    imgsrc: prakalp2k25,
+    description:
+      'Challenge your innovation and engineering skills in a heart-pounding competition that will push you to the limit.',
+    keyword: "ieee,wie",
+  },
+  {
+    title: "Bug Free",
+    imgsrc: Bug_Free,
+    description:
+      'Challenge your innovation and engineering skills in a heart-pounding competition that will push you to the limit.',
+    keyword: "ieee",
+  },
+  {
+    title: "World Startupday Event",
+    imgsrc: IICxIEEE,
+    description:
+      'Join us for the Startup Investors Forum: Bridging Startups and Investors! 🚀🤝 At Fr. Conceicao Rodrigues College Of Engineering.',
+    keyword: "ieee",
+  },
+  {
+    title: "Ingenium: Group Discussion",
+    imgsrc: ingenium3,
+    description:
+      'INGENIUM: Igniting Innovation on Engineers Day!.An exhilarating Engineers Day Group Discussion Challenge to enhance critical thinking, communication, knowledge, teamwork, and confidence',
+    keyword: "ieee,wie",
+  },
   {
     title: "Prakalp 2k24",
     imgsrc: prakalp2,

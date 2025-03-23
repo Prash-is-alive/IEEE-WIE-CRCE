@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import backgroundVideo from "../assets/videos/bgvideo.mp4"; /**Original BG Video */
+// import backgroundVideo from "../assets/videos/bgvideo.mp4"; /**Original BG Video */
 import { Icon } from "@iconify/react";
 import IeeeAbout from "./IeeeAbout";
 import "../css/Hero.css";
@@ -15,9 +15,9 @@ function Hero(props) {
   return (
     <>
       <div className="heroContainer snapElement">
-        <video autoPlay muted loop className="videoBg">
+        {/* <video autoPlay muted loop className="videoBg">
             <source src={backgroundVideo} type="video/mp4" />
-          </video>
+          </video> */}
 
         <span className="reveal-text text-center">
           <div className="fs-1">
